@@ -5,7 +5,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Dk\\TestPackage\\": "src/"
+            "DkV\\TestPackage\\": "src/"
         }
     },
     "authors": [
