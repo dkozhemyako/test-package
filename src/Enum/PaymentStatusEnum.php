@@ -1,5 +1,7 @@
 <?php
 
+namespace dvk\test_package\Enum;
+
 enum PaymentStatusEnum: int
 {
     case COMPLETED = 1;

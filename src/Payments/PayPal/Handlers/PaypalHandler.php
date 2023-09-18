@@ -1,18 +1,21 @@
 <?php
 
-namespace PayPal\Handlers;
+namespace dkv\test_package\Payments\PayPal\Handlers;
 
-use DTO\PaymentDataDTO;
-use MakePaymentDTO;
-use MakePaymentResultDTO;
-use PaymentInterface;
-use PayPal\CreatePaymentService;
-use PayPal\MakePaymentService;
+use dkv\test_package\Payments\DTO\MakePaymentDTO;
+use dkv\test_package\Payments\DTO\MakePaymentResultDTO;
+use dkv\test_package\Payments\PaymentInterface;
+use dkv\test_package\Payments\DTO\PaymentDataDTO;
+use dkv\test_package\Payments\PayPal\CreatePaymentService;
+use dkv\test_package\Payments\PayPal\MakePaymentService;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class PaypalHandler implements PaymentInterface
 {
 
+    /**
+     * @throws \Throwable
+     */
     public function __construct(
         protected PayPalClient $payPalClient,
         protected PaymentDataDTO $paymentDataDTO,
