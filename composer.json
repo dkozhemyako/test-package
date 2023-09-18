@@ -1,20 +1,21 @@
 {
-    "name": "dkv/test_package",
-    "description": "to complete task 18",
-    "type": "library",
-    "license": "mit",
-    "autoload": {
-        "psr-4": {
-            "DkV\\TestPackage\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "dkv"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "php": "^8.2",
-        "srmklive/paypal": "~3.0"
+  "name": "dkv/test_package",
+  "description": "to complete task 17",
+  "type": "library",
+  "license": "mit",
+  "autoload": {
+    "psr-4": {
+      "DkV\\TestPackage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "dkv"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.2",
+    "srmklive/paypal": "~3.0"
+  }
 }
