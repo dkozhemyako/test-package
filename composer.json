@@ -17,5 +17,4 @@
     "require": {
         "php": "^8.2",
         "srmklive/paypal": "~3.0"
-    }
 }
