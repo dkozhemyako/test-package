@@ -2,7 +2,7 @@
 
 namespace dkv\test_package\Payments\DTO;
 
-use dvk\test_package\Enum\CurrencyEnum;
+use dkv\test_package\Enum\CurrencyEnum;
 
 class MakePaymentDTO
 {

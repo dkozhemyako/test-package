@@ -1,11 +1,11 @@
 {
-  "name": "dk/test_package",
-  "description": "to complete task 18",
+  "name": "dkv/test_package",
+  "description": "to complete task 17",
   "type": "library",
   "license": "mit",
   "autoload": {
     "psr-4": {
-      "Dk\\TestPackage\\": "src/"
+      "DkV\\TestPackage\\": "src/"
     }
   },
   "authors": [

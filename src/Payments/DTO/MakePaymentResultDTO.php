@@ -2,9 +2,9 @@
 
 namespace dkv\test_package\Payments\DTO;
 
-use dvk\test_package\Enum\CurrencyEnum;
-use dvk\test_package\Enum\PaymentsEnum;
-use dvk\test_package\Enum\PaymentStatusEnum;
+use dkv\test_package\Enum\CurrencyEnum;
+use dkv\test_package\Enum\PaymentsEnum;
+use dkv\test_package\Enum\PaymentStatusEnum;
 
 class MakePaymentResultDTO
 {

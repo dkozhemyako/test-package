@@ -1,6 +1,6 @@
 <?php
 
-namespace dvk\test_package\Enum;
+namespace dkv\test_package\Enum;
 
 enum CurrencyEnum: int
 {

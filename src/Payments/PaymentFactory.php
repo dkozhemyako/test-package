@@ -4,14 +4,17 @@ namespace dkv\test_package\Payments;
 
 
 
+use dkv\test_package\Enum\PaymentsEnum;
 use dkv\test_package\Payments\PayPal\Handlers\PaypalHandler;
 use dkv\test_package\Payments\DTO\PaymentDataDTO;
-use dvk\test_package\Enum\PaymentsEnum;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class PaymentFactory
 {
 
+    /**
+     * @throws \Throwable
+     */
     public function getInstance(PaymentsEnum $paymentsEnum, $config): PaypalHandler
     {
         return match ($paymentsEnum) {
