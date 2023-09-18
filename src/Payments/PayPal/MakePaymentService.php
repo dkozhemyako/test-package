@@ -1,8 +1,9 @@
 <?php
 
-namespace PayPal;
+namespace dkv\test_package\Payments\PayPal;
 
-use MakePaymentResultDTO;
+
+use dkv\test_package\Payments\DTO\MakePaymentResultDTO;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class MakePaymentService

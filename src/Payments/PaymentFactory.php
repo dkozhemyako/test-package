@@ -1,7 +1,12 @@
 <?php
 
-use DTO\PaymentDataDTO;
-use PayPal\Handlers\PaypalHandler;
+namespace dkv\test_package\Payments;
+
+
+
+use dkv\test_package\Payments\PayPal\Handlers\PaypalHandler;
+use dkv\test_package\Payments\DTO\PaymentDataDTO;
+use dvk\test_package\Enum\PaymentsEnum;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class PaymentFactory

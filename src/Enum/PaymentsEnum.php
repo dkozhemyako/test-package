@@ -1,6 +1,6 @@
 <?php
 
-
+namespace dvk\test_package\Enum;
 enum PaymentsEnum: int
 {
     case STRIPE = 2;

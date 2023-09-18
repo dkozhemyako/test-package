@@ -1,5 +1,9 @@
 <?php
 
+namespace dkv\test_package\Payments\DTO;
+
+use dvk\test_package\Enum\CurrencyEnum;
+
 class MakePaymentDTO
 {
     protected string $orderId;

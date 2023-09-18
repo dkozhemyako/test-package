@@ -1,5 +1,10 @@
 <?php
 
+namespace dkv\test_package\Payments;
+
+use dkv\test_package\Payments\DTO\MakePaymentDTO;
+use dkv\test_package\Payments\DTO\MakePaymentResultDTO;
+
 interface PaymentInterface
 
 {

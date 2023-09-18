@@ -1,9 +1,9 @@
 <?php
 
-namespace PayPal;
+namespace dkv\test_package\Payments\PayPal;
 
-use CurrencyEnum;
-use MakePaymentDTO;
+use dkv\test_package\Payments\DTO\MakePaymentDTO;
+use dvk\test_package\Enum\CurrencyEnum;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 use Throwable;
 

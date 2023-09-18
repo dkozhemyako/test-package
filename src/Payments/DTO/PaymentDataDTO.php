@@ -2,6 +2,8 @@
 
 namespace DTO;
 
+namespace dkv\test_package\Payments\DTO;
+
 class PaymentDataDTO
 {
     public function __construct(
